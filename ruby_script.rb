@@ -8,10 +8,7 @@ end
 ## map uid's to phone numbers - sensitive data, please secure this file
 ## to find your uid type 'id -u' in console
 $users = { 
-	:'0' => '351915318138',
-	:'1000' => '351915318138',
-	:'1002' => '351919849257',
-	:'1001' => '351912806875' 
+	:'0' => '351910000000'
 }
 
 $client = Nexmo::Client.new(
